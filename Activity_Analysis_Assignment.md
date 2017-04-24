@@ -161,7 +161,7 @@ legend("topright",legend = c(paste("Mean daily steps = ",mean_steps_corrected,se
         lty = c(2,1), lwd = c(3,3))
 ```
 
-![](Activity_Analysis_Assignment_files/figure-html/correct data-1.png)<!-- -->
+![](Activity_Analysis_Assignment_files/figure-html/imputed-1.png)<!-- -->
 
 Imputing the missing steps has impacted on both the mean and median resulting in them now being the same. Imputing has increased the mean number of steps per day to a greater degree than it increased the median. With imputing:
 
