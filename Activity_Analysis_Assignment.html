@@ -135,9 +135,8 @@ $(document).ready(function () {
 <li>Imputation of missing step values and repeating step 2. on corrected data</li>
 <li>Comparison of average daily step activity by intervals for weekends vs weekdays</li>
 </ol>
-</div>
-<div id="obtain-and-pre-process-data" class="section level1">
-<h1>1: Obtain and pre-process data</h1>
+<div id="obtain-and-pre-process-data" class="section level2">
+<h2>1: Obtain and pre-process data</h2>
 <pre class="r"><code>library(downloader)
 
 # obtain and read in data
@@ -159,6 +158,7 @@ summary(activity_data)</code></pre>
 ##  NA's   :2304     (Other)   :15840</code></pre>
 <pre class="r"><code># change date from factor to date format
 activity_data$date &lt;- as.Date(activity_data$date, &quot;%Y-%m-%d&quot;)</code></pre>
+</div>
 <div id="plot-1---histogram-of-total-daily-steps" class="section level2">
 <h2>2. Plot 1 - Histogram of total daily steps</h2>
 <pre class="r"><code># calculate total number of steps each day (prior to imputing any missing data) 
