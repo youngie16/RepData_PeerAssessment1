@@ -52,7 +52,7 @@ summary(activity_data)
 activity_data$date <- as.Date(activity_data$date, "%Y-%m-%d")
 ```
 
-##2.  Plot 1 - Histogram of total daily steps 
+## 2.  Plot 1 - Histogram of total daily steps 
 
 
 ```r
@@ -99,7 +99,7 @@ legend("topright",legend = c(paste("Mean daily steps = ",mean_steps,sep=""),
 
 ![](Activity_Analysis_Assignment_files/figure-html/plot1-1.png)<!-- -->
 
-##3. Plot 2 - Time series of average daily activity pattern
+## 3. Plot 2 - Time series of average daily activity pattern
 
 ```r
 # summarise daily & interval information by intervals and include average for each interval 
@@ -123,7 +123,7 @@ interval_with_max_steps <- interval_data$interval[interval_data$average_steps ==
 
 The 5 minute interval with the maximum number of steps (on average) is 835.
 
-##4. Impute missing steps
+## 4. Impute missing steps
 
 There are 2304 rows in the data with missing (NA) step count values.
 
@@ -169,7 +169,7 @@ Imputing the missing steps has impacted on both the mean and median resulting in
 - the median number steps increased by 371 steps to 10766
 
 
-##5. Activity levels on weekends vs weekdays
+## 5. Activity levels on weekends vs weekdays
 
 
 ```r
