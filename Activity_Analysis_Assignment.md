@@ -26,10 +26,10 @@ The steps/analysis performed are as follows:
 library(downloader)
 
 # obtain and read in data
-setwd("C:/Users/Lynda Young/Documents/Coursera/Reproducible Research/Activity_Analysis_Assignment")
-fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
-download.file(fileUrl,destfile = "activity.zip")
-unzip("./activity.zip", exdir = ".")
+#setwd("C:/Users/Lynda Young/Documents/Coursera/Reproducible Research")
+#fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
+#download.file(fileUrl,destfile = "activity.zip")
+#unzip("./activity.zip", exdir = ".")
 activity_data <- read.csv("activity.csv")
 
 # investigate   
