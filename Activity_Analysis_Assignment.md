@@ -17,7 +17,7 @@ The steps/analysis performed are as follows:
 5. Comparison of average daily step activity by intervals for weekends vs weekdays
 
 
-#1: Obtain and pre-process data
+# 1: Obtain and pre-process data
 
 
 
