@@ -96,7 +96,7 @@ The 5 minute interval with the maximum number of steps (on average) is `r interv
 There are `r (sum(is.na(activity_data$steps)))` rows in the data with missing (NA) step count values.
 
 The missing values will be imputed as the interval average across all days as per the code below.
-```{r Impute missing steps}
+```{r correct data}
 
 # create a new data set that has missing values set to the average for each interval with missing values
 activity_data_corrected <- merge(activity_data,interval_data) # add in average steps for each interval
