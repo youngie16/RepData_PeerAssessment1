@@ -166,7 +166,8 @@ legend("topright",legend = c(paste("Mean daily steps = ",mean_steps_corrected,se
 Imputing the missing steps has impacted on both the mean and median resulting in them now being the same. Imputing has increased the mean number of steps per day to a greater degree than it increased the median. With imputing:
 
 - the mean number of steps increased by 1412 steps to 10766 
-- the median number steps increased by 371 steps to `format(r median_steps_corrected,0)`
+- the median number steps increased by 371 steps to 10766
+
 
 ##5. Activity levels on weekends vs weekdays
 
@@ -216,4 +217,3 @@ mtext("5 minute time intervals",side=1,outer = TRUE, cex = 1.2 )
 
 
 Not surprisingly, the step counts across the day are generally lower for weekdays between 9am and 5pm than they are on weekends. 
-
