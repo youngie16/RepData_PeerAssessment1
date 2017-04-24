@@ -1,5 +1,5 @@
 ---
-        title: "Reproducible Research - Activity Analysis Assignment"
+title: "Reproducible Research - Activity Analysis Assignment"
 author: "Lynda Young"
 date: "24 April 2017"
 output: 
